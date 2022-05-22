@@ -1,0 +1,14 @@
+{% extends 'flatpages/index.html' %}
+ 
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+ 
+{% block content %}
+<h1 style="line-height: 1;"><span style="font-family: impact, sans-serif; font-size: 36pt;"> 
+    <h2>{{ flatpage.title }}</h2>
+    {{ flatpage.content }}
+    <br>
+    {{ flatpage.content }}
+</span></h1>
+{% endblock content %}
